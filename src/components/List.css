@@ -1,0 +1,25 @@
+.list-container,
+.response-container {
+    box-sizing: border-box;
+    width: 100vw;
+    padding: 5px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.list-container .card-container {
+    flex: 0 0 30%;
+    font-size: 24px;
+    border-radius: 5px;
+    border-width: 2px;
+}
+
+.response-container .card-container {
+    flex: 0 0 100%;
+    width: 100%;
+    font-size: 72px;
+    border-radius: 15px;
+    border-width: 5px;
+}
