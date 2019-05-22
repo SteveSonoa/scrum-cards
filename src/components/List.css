@@ -19,7 +19,11 @@
 .response-container .card-container {
     flex: 0 0 100%;
     width: 100%;
-    font-size: 72px;
+    font-size: 120px;
     border-radius: 15px;
     border-width: 5px;
+}
+
+.response-container .card-container h1 {
+    margin: 0;
 }
